@@ -31,13 +31,20 @@ const OPTIONS: Option[] = [
     featureFlag: true,
   },
   // Añade aquí la Opción 4 durante la clase:
-  // {
-  //   id: 4,
-  //   title: 'Opción 4',
-  //   description: 'Descripción corta',
-  //   message: 'Escribe aquí el mensaje de la Opción 4.',
-  //   featureFlag: false,
-  // },
+  {
+    id: 4,
+    title: "Opción 4",
+    description: "Pull Requests desde rama-b",
+    message: "Una pull request es una solicitud para fusionar cambios...",
+    featureFlag: false,
+  },
+  {
+    id: 5,
+    title: "Opción 5",
+    description: "Conflictos",
+    message: "Un conflicto ocurre cuando dos ramas modifican la misma línea...",
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
