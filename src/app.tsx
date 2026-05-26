@@ -38,6 +38,13 @@ const OPTIONS: Option[] = [
     message: "Una pull request es una solicitud para fusionar cambios...",
     featureFlag: false,
   },
+  {
+    id: 5,
+    title: "Opción 5",
+    description: "Conflictos",
+    message: "Un conflicto ocurre cuando dos ramas modifican la misma línea...",
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
