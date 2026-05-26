@@ -34,7 +34,7 @@ const OPTIONS: Option[] = [
   {
     id: 4,
     title: "Opción 4",
-    description: "Pull Requests desde rama-a",
+    description: "Pull Requests",
     message: "Una pull request es una solicitud para fusionar cambios...",
     featureFlag: false,
   },
